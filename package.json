@@ -1,0 +1,20 @@
+{
+  "name": "3-Pages-in-3-Weeks-Episode-10",
+  "version": "1.0.0",
+  "description": "This is 3-Pages-in-3-Weeks Episode 10 template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10/issues"
+  },
+  "homepage": "https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10#readme"
+}
