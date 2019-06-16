@@ -87,3 +87,39 @@ main {
   background-color: #7462F5;
   border: 1px solid #7462F5;
 }
+
+.seo {
+  background-color: #ffffff;
+  padding: 140px 120px 100px 100px;
+}
+
+.seo:after {
+  content: '';
+  clear: both;
+}
+
+.preview {
+  width: 420px;
+  height: 260px;
+}
+
+.seo-description {
+  width: 300px;
+  float: right;
+  padding-top: 40px;
+}
+
+.seo-description-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.seo-description-content {
+  font-size: 12px;
+  color: #8E999F;
+  line-height: 18px;
+}
+
+.seo-read-more {
+
+}
