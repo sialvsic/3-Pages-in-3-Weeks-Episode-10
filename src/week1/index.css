@@ -2,3 +2,41 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.hero-background {
+  background: url("./assert/hero.jpg");
+}
+
+header {
+  height: 80px;
+  background-color: #ffffff;
+  line-height: 80px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+header:after {
+  content: '';
+  clear: both;
+}
+
+header .link {
+  float: right;
+}
+
+header .link a {
+  color: gray;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+header .title {
+  font-size: 20px;
+}
+
+header .search {
+  width: 70px;
+  height: 40px;
+  vertical-align: middle;
+}
