@@ -4,6 +4,7 @@
   "description": "This is 3-Pages-in-3-Weeks Episode 10 template.",
   "main": "index.js",
   "scripts": {
+    "week1": "parcel src/week1/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10/issues"
   },
-  "homepage": "https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10#readme"
+  "homepage": "https://github.com/sialvsic/3-Pages-in-3-Weeks-Episode-10#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
