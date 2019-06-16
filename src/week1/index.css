@@ -4,6 +4,11 @@ body {
   background-color: #ECECEC;
 }
 
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 header {
   height: 50px;
   background-color: #ffffff;
@@ -40,11 +45,6 @@ header .search {
   vertical-align: middle;
 }
 
-main {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 .hero {
   padding: 180px 270px 135px;
   text-align: center;
@@ -75,6 +75,7 @@ main {
   width: 140px;
   height: 40px;
   font-size: 10px;
+  cursor: pointer;
 }
 
 .download {
@@ -114,12 +115,55 @@ main {
   font-weight: bold;
 }
 
-.seo-description-content {
+.description-content {
   font-size: 12px;
   color: #8E999F;
   line-height: 18px;
+  margin: 20px 0;
 }
 
-.seo-read-more {
+.portfolio {
+  background-color: #F5F5F5;
+  padding: 80px 120px 100px 100px;
+  overflow: hidden;
+}
 
+.portfolio-description {
+  width: 300px;
+  float: left;
+}
+
+.portfolio-img {
+  float: right;
+  width: 420px;
+  height: 260px;
+}
+
+.portfolio-description {
+  padding-top: 40px;
+}
+
+.portfolio-description-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  box-sizing: border-box;
+  height: 150px;
+  line-height: 70px;
+  background-color: #0E1015;
+  padding: 40px 100px;
+}
+
+footer .description {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.icon-links {
+  float: right;
+  display: inline;
+  text-align: right;
+  color: #ffffff;
 }
